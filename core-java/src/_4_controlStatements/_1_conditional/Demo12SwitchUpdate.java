@@ -1,4 +1,4 @@
-package _4_controlStatements.conditional;
+package _4_controlStatements._1_conditional;
 
 public class Demo12SwitchUpdate {
     public static void main(String[] args) {
