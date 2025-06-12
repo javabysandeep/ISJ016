@@ -5,6 +5,7 @@ public class Demo15Factor {
         //find the factors of the given number
         // 6 factors are 1, 2,3
         // maximum factor can be n/2
+        //factor range will be : 1 to n/2
         int number = 100;
 
         for (int i = 1; i <= number / 2; i++) {

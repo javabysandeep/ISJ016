@@ -7,7 +7,7 @@ public class Demo6Reverse {
         int rev = 0;
         while (number > 0) {
             int digit = number % 10;
-            rev = rev * 10 + digit;
+            rev = rev * 10 + digit; //to have the place value
             number /= 10;
         }
 
