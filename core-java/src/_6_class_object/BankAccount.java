@@ -6,6 +6,7 @@ public class BankAccount {
     int balance;
     String accountType;
     String accountHolderName;
+    static String bankName = "SBI";
 
     void deposit(int amount) {
         balance = balance + amount;

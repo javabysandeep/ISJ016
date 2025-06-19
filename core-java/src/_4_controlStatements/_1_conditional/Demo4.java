@@ -1,6 +1,7 @@
 package _4_controlStatements._1_conditional;
 
 public class Demo4 {
+
     public static void main(String[] args) {
         int number1 = 100;
         int number2 = 200;
