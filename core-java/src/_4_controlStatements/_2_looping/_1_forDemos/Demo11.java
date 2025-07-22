@@ -5,9 +5,8 @@ public class Demo11 {
         for (int left = 0, right = 10; left < right; ) {
             System.out.println(left + "\t" + right);
         }
-        //0, 10
-        //infinite
 
+        
 
     }
 }

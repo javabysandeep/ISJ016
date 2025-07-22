@@ -6,6 +6,6 @@ public class Demo5 {
         for (; isClear; ) {
             System.out.println("*");
         }
-        //for loop wont be executed
+        //for loop won't be executed
     }
 }
