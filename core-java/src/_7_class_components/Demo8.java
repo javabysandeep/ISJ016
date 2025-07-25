@@ -3,7 +3,7 @@ package _7_class_components;
 import java.io.PrintStream;
 
 public class Demo8 {
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         class PrintStream {
             void println(Object x) {
 
@@ -15,6 +15,6 @@ public class Demo8 {
 
 
         System.out.println("Hello World");
-    }
+    }*/
 }
 

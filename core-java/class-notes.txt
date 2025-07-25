@@ -1,0 +1,81 @@
+Session 38 - 25th July 2025 - Interface
+
+1. What is an interface?
+    - It is a type of class which is incomplete and fully abstract.
+    - It is used to achieve 100% abstraction.
+    - Multiple inheritance is supported through interfaces as it does not contain instance members.
+    - syntax to create an interface :
+
+        interface InterfaceName{
+            //
+        }
+
+2. What all components we can define inside the interface?
+    - Variables
+        - by default variables will be public static final.[constant]
+        - instance variables are not allowed.
+    - Methods
+        - by default methods will be public abstract.
+        - before java 8 version
+            - only abstract methods were allowed to define.
+        - from java 8 version
+            - we can define
+                - any number of static methods [java 8 feature]
+                - any number of default methods [java 8 feature]
+                - any number of abstract methods
+    - constructors
+        - we cannot define constructors inside the interface. We get CTE.
+    - blocks
+        - blocks are not allowed
+    - nested classes
+        - by default nested classes will be public static
+
+3. Can we create object of an interface?
+    - No as it is incomplete.
+
+4. How multiple inheritance is supported through interfaces?
+    - As interface does not contain instance members,
+    there won't be any confusion for the subclass which is implementing more than one interfaces
+
+
+5. How to create subclass of an interface?
+    - We can create subclass by using implements keyword.
+    - e.g.
+
+        interface MessageService {
+
+            public abstract void sendMessage(String message);
+
+        }
+
+        class WhatsAppService implements MessageService {
+
+            public void sendMessage(String message){
+                System.out.println("Sending message using whatsApp");
+            }
+
+        }
+
+6. How Inheritance between concrete classes, abstract classes and interface works?
+    - When one concrete class implements another interface, then it must override all the abstract methods from super class interface in the subclass otherwise we get CTE
+    - When one abstract class implements another interface, then it is optional to override all the abstract methods from super class interface in the subclass.
+
+
+Tomorrow
+    - marker interface
+    - anonymous class
+
+    - Java 8 features
+        - Functional interface
+        - default methods
+        - static methods
+        - lambda expression
+        - method reference
+
+
+
+
+
+
+
+
