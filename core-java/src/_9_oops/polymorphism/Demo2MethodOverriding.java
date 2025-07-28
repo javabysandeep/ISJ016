@@ -1,5 +1,7 @@
 package _9_oops.polymorphism;
 
+import java.io.Serializable;
+
 public class Demo2MethodOverriding {
     public static void main(String[] args) {
         class MessageService {
@@ -16,5 +18,7 @@ public class Demo2MethodOverriding {
 
         MessageService service = new WhatsAppService();
         service.sendMessage("Good morning");
+
+
     }
 }
