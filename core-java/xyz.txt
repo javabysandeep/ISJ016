@@ -20,3 +20,6 @@ Types of stream based on the type of data that we carry
 			§ Writer(AC)
 				□ FileWriter(CC) ---> write characters to the file
 				□ BufferedWriter(CC)---> write characters to the buffer
+Hello World- FileWriter
+ Hello World - BufferedOutputStream
+ Hello World - BufferedWriter
