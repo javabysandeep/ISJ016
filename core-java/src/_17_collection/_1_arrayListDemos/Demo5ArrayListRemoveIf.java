@@ -1,9 +1,9 @@
-package _17_collection;
+package _17_collection._1_arrayListDemos;
 
 import java.util.ArrayList;
 import java.util.function.Predicate;
 
-public class Demo5RemoveIf {
+public class Demo5ArrayListRemoveIf {
     public static void main(String[] args) {
         ArrayList<Integer> list = new ArrayList<>();
         list.add(10);
@@ -15,7 +15,8 @@ public class Demo5RemoveIf {
         System.out.println("list at the creation " + list);
 
         //remove elements based on condition
-        Predicate<Integer> evenTest = x -> x % 2 == 0;
+        // boolean test(T t);
+        Predicate<Integer> evenTest = integer -> integer % 2 == 0;
 
         //remove all even numbers
         list.removeIf(evenTest);

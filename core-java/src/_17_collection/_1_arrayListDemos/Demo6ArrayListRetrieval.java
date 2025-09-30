@@ -1,11 +1,11 @@
-package _17_collection;
+package _17_collection._1_arrayListDemos;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.ListIterator;
 import java.util.function.Consumer;
 
-public class Demo6Read {
+public class Demo6ArrayListRetrieval {
     public static void main(String[] args) {
         ArrayList<Integer> list = new ArrayList<>();
         list.add(10);
@@ -16,9 +16,9 @@ public class Demo6Read {
         list.add(15);
 
         //01. get method
+        System.out.println(list.get(0));//returns element at a specified index
         System.out.println(list.getFirst());//returns first element
         System.out.println(list.getLast());//returns last element
-        System.out.println(list.get(0));//returns element at a specified index
 
 
         //02. read all elements from the given list --> traditional for loop
@@ -35,7 +35,8 @@ public class Demo6Read {
 
         //04. read all elements from the given list --> java 8 forEach method
         System.out.println("\n retrieve using java 8 forEach method");
-        Consumer<Integer> consumer = x -> System.out.println(x);
+        Consumer<Integer> consumer = input -> System.out.println(input);
+                // void accept(T t);
         //forEach internally runs the for loop and calls the accept method of provided Consumer
         list.forEach(consumer);
 

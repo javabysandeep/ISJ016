@@ -1,8 +1,8 @@
-package _17_collection;
+package _17_collection._1_arrayListDemos;
 
 import java.util.ArrayList;
 
-public class Demo3Insertion {
+public class Demo3ArrayListInsertion {
     public static void main(String[] args) {
         //create a container
         ArrayList arrayList = new ArrayList();
@@ -17,7 +17,6 @@ public class Demo3Insertion {
         arrayList.add(0, 200);
         System.out.println("when single element added at the specific index " + arrayList);
 
-
         //03. add multiple elements at the end of list
         ArrayList listOfElements = new ArrayList<>();
         listOfElements.add(1);
@@ -31,8 +30,6 @@ public class Demo3Insertion {
         arrayList.addAll(0, listOfElements);
         System.out.println("when list of elements added at a specific index " + arrayList);
 
-
-        //deletion
 
     }
 }

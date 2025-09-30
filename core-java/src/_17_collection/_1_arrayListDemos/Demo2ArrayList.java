@@ -1,11 +1,11 @@
-package _17_collection;
+package _17_collection._1_arrayListDemos;
 
 import java.util.ArrayList;
 
-public class Demo2 {
+public class Demo2ArrayList {
     public static void main(String[] args) {
-        // multiple values --> homoegenous, heterogeneous, dduplicate, null, insertion order
-        ArrayList arrayList = new ArrayList();
+        // multiple values --> homogeneous, heterogeneous, duplicate, null, insertion order
+        ArrayList arrayList = new ArrayList(); // create the container
         arrayList.add(10);
         arrayList.add(10);
         arrayList.add(10);

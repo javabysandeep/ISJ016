@@ -1,11 +1,9 @@
-package _17_collection;
+package _17_collection._2_VectorDemos;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Vector;
-import java.util.concurrent.CopyOnWriteArrayList;
 
-public class Demo8Sort {
+public class Demo8ArrayListSort {
     public static void main(String[] args) {
         //sorting ---> comparison --> homogeneous data
         ArrayList arrayList = new ArrayList();
@@ -19,6 +17,8 @@ public class Demo8Sort {
         Collections.sort(arrayList);
         System.out.println("after sorting");
         System.out.println(arrayList);
+
+
 
 
     }
